@@ -42,15 +42,11 @@
         background-size: cover;
         color: rgb(10, 10, 10);
       }
-      .navbar-inverse, footer{
-        background-color: rgba(255,255,255,.2) !important;
-        border-color: rgba(255,255,255,.2) !important;
-      }
       .featured-row {
        text-align:center;
        background-color:white;
        min-height:200px;
-       padding:40px 0;
+       padding:55px 0;
        border-bottom: 1px solid #EEE;
      }
      .img-row {
@@ -73,6 +69,22 @@
      .blue {
        background: #698AC8;
      }
+     .largo {
+       width: 100%;
+     }
+     .center {
+       text-align: center;
+     }
+     .left {
+       padding-left: 125px;
+     }
+     .justify {
+       text-align: justify;
+     }
+     .navbar-inverse {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+        border-color: rgba(0, 0, 0, 0.4) !important;
+      }
      .navbar-inverse .navbar-brand, .navbar-brand:hover {
        color: white;
      }
@@ -84,51 +96,61 @@
      .namemarketing {
        font-family: 'Aguafina Script', cursive;
        font-weight: 300;
-       font-size: 3em;
+       font-size: 2.2em;
        color: white;
+     }
+     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+       color: #fff;
+       background-color: rgba(0,0,0,0.5) !important;
      }
      .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
        color: #fff;
-       background-color: rgba(255,255,255,.2);
+       background-color: rgba(0,0,0,1) !important;
      }
      .navbar-inverse .navbar-nav>li>a {
        color: #fff;
-}
+     }
+
       ul {
         color: white !important;
       }
      footer {
-       min-height: 60px;
+       min-height: 90px;
+       padding: 20px;
+       color: #fff;
+       bottom: -40px;
+       position: relative;
+       background-color: rgba(0, 0, 0, 0.8) !important;
+       border-color: rgba(0, 0, 0, 0.8) !important;
      }
     </style>
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body data-spy="scroll" data-target=".navbar-collapse">
-    <div class="navbar-wrapper">
-      <div class="container">
-        <nav class="navbar navbar-inverse navbar-static-top">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"" aria-expanded="false" aria-controls="navbar">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><span class="nameproject">Wild Circus</span></a>
+              <a class="navbar-brand scrollTo" href="#myCarousel"><span class="nameproject">Wild Circus</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a class="scrollTo" href="#show">The Show</a></li>
+                <li><a class="scrollTo" href="#myCarousel">The Show</a></li>
                 <li><a class="scrollTo" href="#details">Details</a></li>
                 <li><a class="scrollTo" href="#artists">Artists</a></li>
+                <li><a class="scrollTo" href="#booking">Booking</a></li>
               </ul>
             </div>
           </div>
         </nav>
-      </div>
-    </div>
+
 
     <!-- Carousel
     ================================================== -->
@@ -168,68 +190,35 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class='row featured-row blue'>
-      <h2><span class="namemarketing">" Wild Circus"</span></h2>
+      <div class="row featured-row blue">
+        <h2><span class="namemarketing">" Wild Circus"</span></h2>
         <p class="white"><small>on tour <br />Meet the greatest circus of the world all around France</small></p>
-        <p><a class="btn btn-danger scrollTo" href="#tour" role="button">View details &raquo;</a></p><br />
+        <p><a class="btn btn-danger scrollTo" href="#booking" role="button">Book Now &raquo;</a></p><br />
       </div>
 
-
+    <!-- START THE FEATURETTES -->
     <hr class="featurette-divider">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row featurette featured-row img-row" id="show">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
       <div class="row featurette featured-row" id="details">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette featured-row img-row-fin white" id="artists">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Cirque d’Hiver Wild de Paris. <span class="text-muted"><small>Let the show begin!</small></span></h2><br />
+          <p class="lead">
+            For more than 170 years, the Wild dynasty has been responsible for the French circus’s fine reputation. For 80 years, it has animated the French capital with its Cirque d’Hiver Wild de Paris shows, which are renowned worldwide.<br /> Today, it presents its greatest nationwide tour performance!
+
+            This is a unique show for a unique tour!<br /> Enter the temple of the circus where, from the opening notes of the ‘Piste aux Étoiles’ overture, the grand Cirque d’Hiver orchestra, accompanied by the Salto Dancers, will transport you into a magical light extravaganza!
+
+            If the circus is a celebration kingdom, the Wilds are kings. This performance will be an opportunity for you to share moments of happiness with both friends and family.
+          </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/cirque.gif" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette featured-row">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-      <!-- /END THE FEATURETTES -->
-      <div class="row featurette featured-row blue" id="tour">
+      <div class="row featurette featured-row blue" id="artists">
         <div class="col-lg-4">
           <img class="img-circle" src="img/circus-1.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Heading</h2>
@@ -252,9 +241,66 @@
 
       <hr class="featurette-divider">
 
+      <div class="row featurette featured-row" id="booking">
+        <div class="col-md-4">
+          <h2 class="featurette-heading">Booking: "Wild Circus"</h2><br />
+          <p class="lead"><i>For more than 170 years, the Wild dynasty has been responsible for the French circus’s fine reputation. For 80 years, it has animated the French capital with its Cirque d’Hiver Wild de Paris shows, which are renowned worldwide.<br /> Today, it presents its greatest nationwide tour performance!</i></p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="featurette-heading">Buy Tickets</h2><br />
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <td class="justify">
+                  <i class="fa fa-square fa-2x" style="color:#D8A160;"> CARR&Eacute; OR</i><br />
+                  <i class="fa fa-square fa-2x" style="color:#3538A3;"> FAUTEUILS ARGENT</i><br />
+                  <i class="fa fa-square fa-2x" style="color:#A5A5A5;"> FAUTEUILS BRONZE</i><br />
+                  <i class="fa fa-square fa-2x" style="color:#FF6815;"> PREMIERES</i><br />
+                  <i class="fa fa-square fa-2x" style="color:#FED40C;"> SECONDES</i><br /><br />
+                </td>
+                <td class="left">
+                  <span style="color:#D8A160;font-size:1.5em;"> 50 &euro;</span><br />
+                  <span style="color:#3538A3;font-size:1.5em;"> 48 &euro;</span><br />
+                  <span style="color:#A5A5A5;font-size:1.5em;"> 42 &euro;</span><br />
+                  <span style="color:#FF6815;font-size:1.5em;"> 36 &euro;</span><br />
+                  <span style="color:#FED40C;font-size:1.5em;"> 28 &euro;</span><br /><br />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p><a class="btn btn-success largo scrollTo" href="#booking" role="button"><i class="fa fa-ticket fa-2x"></i> Buy tickets &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="featurette-image img-responsive center-block" src="img/plan-tournee-province-2015-b__small.jpg" alt="Generic placeholder image" width="500" height="500">
+        </div>
+      </div><!-- /.row -->
+
+      <hr class="featurette-divider">
+
+
+      <!-- /END THE FEATURETTES -->
+
+
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
+      <footer class=" featurette featured-row">
+        <p class="pull-right"><a href="#"><i class="fa fa-arrow-circle-up fa-lg fa-3x" style="color:#3b5998"></i></a></p>
+        <p class="pull-left">
+          <a href="#">
+              <i class="fa fa-facebook-square fa-3x" style="color:#3b5998"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-twitter-square fa-3x" style="color:#4099FF"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-linkedin-square fa-3x" style="color:#007bb6"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-reddit-square fa-3x" style="color:#900020"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-google-plus-square fa-3x" style="color:#D34836"></i>
+          </a>
+        </p>
         <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
   </div><!-- /.container -->
