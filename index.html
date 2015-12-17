@@ -32,6 +32,8 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Aguafina+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
 
     <style>
       body {
@@ -99,6 +101,18 @@
        font-size: 2.2em;
        color: white;
      }
+     .rainbow {
+       font-family: 'Over the Rainbow', cursive;
+       font-weight: 300;
+       font-size: 2.2em;
+       /*color: white;*/
+     }
+     .codystar {
+       font-family: 'Codystar', cursive;
+       font-weight: 300;
+       font-size: 4em;
+       color: purple;
+     }
      .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
        color: #fff;
        background-color: rgba(0,0,0,0.5) !important;
@@ -113,6 +127,10 @@
      .row {
         margin-right: 0;
       }
+      .ulmodal {
+        list-style: none;
+        background: rgba(255, 0, 0, 0.4);
+       }
       ul {
         color: white !important;
       }
@@ -199,7 +217,33 @@
       <div class="row featured-row blue">
         <h2><span class="namemarketing">" Wild Circus"</span></h2>
         <p class="white"><small>on tour <br />Meet the greatest circus of the world all around France</small></p>
-        <p><a class="btn btn-danger scrollTo" href="#booking" role="button">Book Now &raquo;</a></p><br />
+        <p><button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Our Program &raquo;</button></p>
+        <!-- Modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title rainbow" id="gridSystemModalLabel"> Winter Program Circus</h4><small><i>Wild circus welcomes you in this fascinating adventure</i></small>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <ol class="justify">
+                    <li>Welcome from the opening notes of the ‘Piste aux Étoiles’ overture, accompanied by the Salto Dancers</li>
+                    <li>In a new show exotic.Vladimir and the elephants from Africa and Asia</li>
+                    <li>15 minutes pause</li>
+                    <li>Clowns</li>
+                    <li>Antony's faboulous big cats from India</li>
+                    <li>Final parade of all artists</li>
+                  </ol>
+                </p>
+              </div>
+              <div class="modal-footer codystar center">
+                <p>Wild Circus</p>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div>  <!-- Fin Modal -->
       </div>
 
     <!-- START THE FEATURETTES -->
@@ -210,11 +254,7 @@
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Cirque d’Hiver Wild de Paris. <span class="text-muted"><small>Let the show begin!</small></span></h2><br />
           <p class="lead">
-            For more than 170 years, the Wild dynasty has been responsible for the French circus’s fine reputation. For 80 years, it has animated the French capital with its Cirque d’Hiver Wild de Paris shows, which are renowned worldwide.<br /> Today, it presents its greatest nationwide tour performance!
-
-            This is a unique show for a unique tour!<br /> Enter the temple of the circus where, from the opening notes of the ‘Piste aux Étoiles’ overture, the grand Cirque d’Hiver orchestra, accompanied by the Salto Dancers, will transport you into a magical light extravaganza!
-
-            If the circus is a celebration kingdom, the Wilds are kings. This performance will be an opportunity for you to share moments of happiness with both friends and family.
+            For more than 70 years, the Wild dynasty has been responsible for the French circus’s fine reputation. Today, it presents its greatest nationwide tour performance!<br /> Enter the temple of the circus where, from the opening notes of the ‘Piste aux Étoiles’ overture, the grand Cirque d’Hiver Wild orchestra, accompanied by the Salto Dancers, the tigers, and the Clowns  will transport you into a magical night!<br />If the circus is a celebration kingdom, the Wilds are kings. This performance will be an opportunity for you to share moments of happiness with both friends and family.
           </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
@@ -225,24 +265,79 @@
       <hr class="featurette-divider">
 
       <div class="row featurette featured-row blue" id="artists">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <img class="img-circle" src="img/circus-1.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p class="lead">test</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Salto Dancers</h2>
+          <p class="lead"><i>From the opening notes of the ‘Piste aux Étoiles’ overture, the grand Cirque d’Hiver Wild orchestra, accompanied by the Salto Dancers, will transport you into a magical show!</i></p>
+          <p><a class="btn btn-default scrollTo" href="#dancer" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/circus-house.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p class="lead">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-3">
+          <img class="img-circle" src="img/ipayaso.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Clowns</h2>
+          <p class="lead"><i>Clowning tradition enthusiasts will be delighted! Our clown has remained faithful to the great, timeless an classic act, while adapting it to improve his effectiveness!</i>
+          </p>
+          <p><a class="btn btn-default scrollTo" href="#clown" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-lg-3">
+          <img class="img-circle" src="img/circus+tiger.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Antony's faboulous big cats</h2>
+          <p class="lead"><i>Antony attends discipline and respect! Discover and share a trainer's love and respect for his companions in this show. animals are king at the Cirque d'Hiver Wild.</i></p>
+          <p><a class="btn btn-default scrollTo" href="#tiger" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
           <img class="img-circle" src="img/circus_elephant.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p class="lead">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Vladimir's fantastic elephants</h2>
+          <p class="lead"><i>Vladimir attends discipline and respect! Discover and share a trainer's love and respect for his companions in this show.</i></p>
+          <p><a class="btn btn-default scrollTo" href="#elephant" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette featured-row" id="dancer">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/circus-people.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette featured-row blue" id="clown">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/clound.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette featured-row" id="tiger">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/circus-tiger-fire.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette featured-row blue" id="elephant">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/city-circus.jpg" alt="Generic placeholder image">
+        </div>
       </div>
 
       <hr class="featurette-divider">
@@ -250,7 +345,8 @@
       <div class="row featurette featured-row" id="booking">
         <div class="col-md-4">
           <h2 class="featurette-heading">Booking: "Wild Circus"</h2><br />
-          <p class="lead"><i>For more than 170 years, the Wild dynasty has been responsible for the French circus’s fine reputation. For 80 years, it has animated the French capital with its Cirque d’Hiver Wild de Paris shows, which are renowned worldwide.<br /> Today, it presents its greatest nationwide tour performance!</i></p>
+          <p class="lead"><i>For more than 70 years, the Wild dynasty has been responsible for the French circus’s fine reputation.<br /> Today, it presents its greatest nationwide tour performance!<br />  This performance will be an opportunity for you to share moments of happiness with both friends and family.</i></p>
+          <p class="lead">Let the show begin!</p>
         </div>
         <div class="col-md-4">
           <h2 class="featurette-heading">Buy Tickets</h2><br />
