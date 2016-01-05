@@ -1,0 +1,357 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getAccount"
+			],
+			[
+				"pu",
+				"published_date"
+			],
+			[
+				"mysqli_co",
+				"mysqli_connect"
+			],
+			[
+				"mysqli_fetc",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"mysqli_fec",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"SESSION",
+				"_SESSION"
+			],
+			[
+				"session",
+				"session_start"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mauricio/Desktop/basic-node/bank-account-3.js",
+		"/C/Users/mauricio/Desktop/basic-node/bank-account-2.js",
+		"/C/Users/mauricio/Desktop/basic-node/bank-account.js",
+		"/C/Users/mauricio/Desktop/basic-node/functions.js",
+		"/C/Users/mauricio/Desktop/basic-node/objects.js",
+		"/C/xampp/htdocs/wildCircusPro/css/carousel.css",
+		"/C/xampp/htdocs/wildCircusPro/index.html",
+		"/C/Users/mauricio/Desktop/ecommerce-2/src/templates/about.html",
+		"/C/Users/mauricio/Desktop/ecommerce-2/src/templates/base.html",
+		"/C/xampp/htdocs/chaletsamoens/accueil.php",
+		"/C/Users/mauricio/Desktop/ecommerce-2/src/templates/example_fluid.html",
+		"/C/Users/mauricio/Desktop/eboutique/src/backoffice/views.py",
+		"/C/Users/mauricio/Desktop/eboutique/src/eboutique/urls.py",
+		"/C/Users/mauricio/Desktop/eboutique/src/backoffice/models.py",
+		"/C/Users/mauricio/Desktop/eboutique/src/eboutique/settings.py",
+		"/C/Users/mauricio/Desktop/eboutique/src/templates/backoffice/index.html",
+		"/C/Users/mauricio/Desktop/eboutique/src/backoffice/admin.py",
+		"/C/Users/mauricio/Desktop/eboutique/src/template/front/index.html",
+		"/C/Users/mauricio/Desktop/tryDjango/static/templates/contact.html",
+		"/C/Users/mauricio/Desktop/tryDjango/src/tryDjango/urls.py",
+		"/C/Users/mauricio/Desktop/tryDjango/all.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/contact/tests.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/tryDjango/settings.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/contact/admin.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/contact/views.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/profiles/views.py",
+		"/C/xampp/htdocs/e_portfolio/php/index.php",
+		"/C/Users/mauricio/Desktop/tryDjango/src/contact/forms.py",
+		"/C/Users/mauricio/Desktop/tryDjango/static/templates/navbar.html",
+		"/C/Users/mauricio/Desktop/tryDjango/static/templates/base.html",
+		"/C/Users/mauricio/Desktop/tryDjango/static/templates/home.html",
+		"/C/Users/mauricio/Desktop/tryDjango/static/static/css/main.css",
+		"/C/Users/mauricio/Desktop/tryDjango/static/templates/about.html",
+		"/C/Users/mauricio/Desktop/tryDjango/src/tryDjango/__init__.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/profiles/models.py",
+		"/C/Users/mauricio/Desktop/tryDjango/src/profiles/admin.py",
+		"/C/Users/mauricio/djangoapps/blog/templates/blog/post_list.html",
+		"/C/Users/mauricio/djangoapps/blog/urls.py",
+		"/C/Users/mauricio/djangoapps/blog/static/css/blog.css",
+		"/C/Users/mauricio/djangoapps/blog/templates/blog/base.html",
+		"/C/Users/mauricio/djangoapps/blog/views.py",
+		"/C/Users/mauricio/djangoapps/blog/templates/blog/post_edit.html",
+		"/C/Users/mauricio/djangoapps/blog/templates/blog/post_detail.html",
+		"/C/Users/mauricio/djangoapps/blog/forms.py",
+		"/C/Users/mauricio/djangoapps/mysite/urls.py",
+		"/C/Users/mauricio/djangoapps/mysite/settings.py",
+		"/C/Users/mauricio/djangoapps/blog/models.py",
+		"/C/Users/mauricio/djangoapps/blog/admin.py",
+		"/C/Users/mauricio/djangoapps/.gitignore",
+		"/C/Users/mauricio/djangoapps/myvenv/Lib/site-packages/django/db/backends/sqlite3/schema.py",
+		"/C/Users/mauricio/djangoapps/myvenv/Lib/site-packages/django/db/backends/sqlite3/base.py",
+		"/C/Users/mauricio/django/mysite/mysite/settings.py",
+		"/C/xampp/htdocs/weather/index.php",
+		"/C/xampp/htdocs/weather/scraper.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/res_reg_ips.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/include/functions.php",
+		"/C/xampp/htdocs/chaletsamoens/assets/include/functions.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/journal_user.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/res_stat.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/res_user.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/ajouter_user.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/login.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/supprimer_user.php",
+		"/C/xampp/htdocs/chaletsamoens/login.php",
+		"/C/xampp/htdocs/chaletsamoens/dtp_registration.php",
+		"/C/xampp/htdocs/webcreation/php/index.php",
+		"/C/xampp/htdocs/PhpTutorial/index.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/test.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/index.php",
+		"/C/xampp/htdocs/chaletsamoens/reservation.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/res_anul.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/res_pas.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/res_act.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/functionsadmin1.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/include/connect.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/dashboard.php",
+		"/C/xampp/htdocs/chaletsamoens/index.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/config.php",
+		"/C/xampp/htdocs/chaletsamoens/journal.php",
+		"/C/xampp/htdocs/chaletsamoens/connection.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/logout.php",
+		"/C/xampp/htdocs/chaletsamoens/config.php",
+		"/C/xampp/htdocs/chaletsamoens/supprimer_reservation.php",
+		"/C/xampp/htdocs/chaletsamoens/cambiarpassword.php",
+		"/C/xampp/htdocs/chaletsamoens/changer_password.php",
+		"/C/xampp/htdocs/chaletsamoens/restablecer.php",
+		"/C/xampp/htdocs/chaletsamoens/validaremail.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/functionsadmin4.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/include/process4.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/include/process1.php",
+		"/C/xampp/htdocs/chaletsamoens/events.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/include/process2.php",
+		"/C/xampp/htdocs/chaletsamoens/admin/include/process3.php",
+		"/C/xampp/htdocs/chaletsamoens/functionsadmin3.js",
+		"/C/xampp/htdocs/chaletsamoens/functionsadmin4.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/functionsadmin.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/functionsadmin2.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/functionsadmin3.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/datatables.js",
+		"/C/xampp/htdocs/chaletsamoens/admin/js/jquery-ui.js",
+		"/C/xampp/htdocs/chaletsamoens/add_photo.php",
+		"/C/xampp/htdocs/chaletsamoens/assets/js/slider_photos.js",
+		"/C/xampp/htdocs/chaletsamoens/assets/js/jssor.js",
+		"/C/xampp/htdocs/chaletsamoens/assets/js/jssor.slider.js",
+		"/C/xampp/htdocs/chaletsamoens/assets/css/navbar-top.css",
+		"/C/xampp/htdocs/chaletsamoens/_footer.php",
+		"/C/xampp/htdocs/chaletsamoens/news.php",
+		"/C/xampp/htdocs/chaletsamoens/contacter.php",
+		"/C/xampp/htdocs/chaletsamoens/assets/css/menu.css",
+		"/C/xampp/htdocs/chaletsamoens/assets/css/efectos.css",
+		"/C/xampp/htdocs/chaletsamoens/assets/css/signin.css",
+		"/C/xampp/htdocs/chaletsamoens/assets/css/navbar-fixed-top.css",
+		"/C/xampp/htdocs/chaletsamoens/assets/js/functions.js",
+		"/C/xampp/htdocs/chaletsamoens/assets/include/function_photo.php",
+		"/C/xampp/htdocs/chaletsamoens/assets/js/fullcalendar.js",
+		"/C/xampp/htdocs/chaletsamoens/assets/css/fullcalendar.css",
+		"/C/xampp/htdocs/chaletsamoens/logout.php",
+		"/C/xampp/htdocs/diary/mainpage.php",
+		"/C/xampp/htdocs/diary/index.php",
+		"/C/xampp/htdocs/diary/connection.php",
+		"/C/xampp/htdocs/chaletsamoens/formMail.php",
+		"/C/xampp/htdocs/diary/updatediary.php",
+		"/C/xampp/htdocs/chaletsamoens/register.php",
+		"/C/xampp/htdocs/chaletsamoens/geoip.inc",
+		"/C/xampp/htdocs/chaletsamoens/get_ip.php",
+		"/C/xampp/htdocs/diary/login.php",
+		"/C/xampp/apache/conf/extra/httpd-ssl.conf",
+		"/C/tomcat8/webapps/ROOT/Hello.htm"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"443",
+			"Listen 443"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wildCircusPro.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

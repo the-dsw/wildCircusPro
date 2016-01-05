@@ -1,0 +1,126 @@
+body {
+        background: url('../img/bg-circus.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: rgb(10, 10, 10);
+      }
+      .featured-row {
+       text-align:center;
+       background-color:white;
+       min-height:200px;
+       padding:55px 0;
+       border-bottom: 1px solid #EEE;
+     }
+     .img-row {
+       background: url('../img/content-background-middle.jpg') no-repeat;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+     }
+     .img-row-fin {
+       background: url('../img/Circus-wallpaper1.jpg') no-repeat;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+     }
+     .white {
+       color: white !important;
+     }
+     .blue {
+       background: #698AC8;
+     }
+     .bluegradiente {
+       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+100;Blue+3d+%238 */
+      background: rgb(167,207,223); /* Old browsers */
+      background: -moz-linear-gradient(top,  rgba(167,207,223,.8) 0%, rgba(35,83,138,.8) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  rgba(167,207,223,.8) 0%,rgba(35,83,138,.8) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  rgba(167,207,223,.8) 0%,rgba(35,83,138,.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+
+     }
+     .largo {
+       width: 100%;
+     }
+     .center {
+       text-align: center;
+     }
+     .left {
+       padding-left: 125px;
+     }
+     .justify {
+       text-align: justify;
+     }
+     .navbar-inverse {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+        border-color: rgba(0, 0, 0, 0.4) !important;
+      }
+     .navbar-inverse .navbar-brand, .navbar-brand:hover {
+       color: white;
+     }
+     .nameproject {
+       font-family: 'Aguafina Script', cursive;
+       font-weight: 200;
+       font-size: 1.4em;
+     }
+     .namemarketing {
+       font-family: 'Aguafina Script', cursive;
+       font-weight: 300;
+       font-size: 2.2em;
+       color: white;
+     }
+     .rainbow {
+       font-family: 'Over the Rainbow', cursive;
+       font-weight: 300;
+       font-size: 2.2em;
+       /*color: white;*/
+     }
+     .codystar {
+       font-family: 'Codystar', cursive;
+       font-weight: 300;
+       font-size: 4em;
+       color: purple;
+     }
+     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+       color: #fff;
+       background-color: rgba(0,0,0,0.5) !important;
+     }
+     .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+       color: #fff;
+       background-color: rgba(0,0,0,1) !important;
+     }
+     .navbar-inverse .navbar-nav>li>a {
+       color: #fff;
+     }
+     .row {
+        margin-right: 0;
+      }
+      .ulmodal {
+        list-style: none;
+        background: rgba(255, 0, 0, 0.4);
+       }
+       .container {
+          padding-right: 0 !important;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+      }
+      ul {
+        color: white !important;
+      }
+     footer {
+       min-height: 90px;
+       width: 100%;
+       padding: 20px;
+       color: #fff;
+       bottom: -40px;
+       position: relative;
+       background-color: rgba(0, 0, 0, 0.8) !important;
+       border-color: rgba(0, 0, 0, 0.8) !important;
+     }
+     textarea {
+       resize: none;
+    }
